@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="dockerValidationWINMC.chromeTest2">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- dockerValidationWINMC.chromeTest2 -->
+      <class name="dockerValidationWINMC.chromeTest1">
+        <methods>
+          <include name="Test1"/>
+          <include name="startDockerScale"/>
+        </methods>
+      </class> <!-- dockerValidationWINMC.chromeTest1 -->
+      <class name="dockerValidationWINMC.chromeTest3">
+        <methods>
+          <include name="Test3"/>
+        </methods>
+      </class> <!-- dockerValidationWINMC.chromeTest3 -->
+      <class name="dockerValidationWINMC.firefoxTest1">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- dockerValidationWINMC.firefoxTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114752" started-at="2020-05-26T10:37:51Z" finished-at="2020-05-26T10:39:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114752" started-at="2020-05-26T10:37:51Z" finished-at="2020-05-26T10:39:46Z">
+      <class name="dockerValidationWINMC.firefoxTest1">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:dockerValidationWINMC.firefoxTest1@3cda1055]" name="Test1" duration-ms="55900" started-at="2020-05-26T16:08:44Z" finished-at="2020-05-26T16:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- dockerValidationWINMC.firefoxTest1 -->
+      <class name="dockerValidationWINMC.chromeTest1">
+        <test-method status="PASS" signature="startDockerScale()[pri:0, instance:dockerValidationWINMC.chromeTest1@21bcffb5]" name="startDockerScale" is-config="true" duration-ms="13521" started-at="2020-05-26T16:07:51Z" finished-at="2020-05-26T16:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerScale -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:dockerValidationWINMC.chromeTest1@21bcffb5]" name="Test1" duration-ms="13355" started-at="2020-05-26T16:08:04Z" finished-at="2020-05-26T16:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="stopDockerDeleteFile()[pri:0, instance:dockerValidationWINMC.chromeTest1@21bcffb5]" name="stopDockerDeleteFile" is-config="true" duration-ms="6006" started-at="2020-05-26T16:09:40Z" finished-at="2020-05-26T16:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerDeleteFile -->
+      </class> <!-- dockerValidationWINMC.chromeTest1 -->
+      <class name="dockerValidationWINMC.chromeTest2">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:dockerValidationWINMC.chromeTest2@380fb434]" name="Test2" duration-ms="15715" started-at="2020-05-26T16:08:18Z" finished-at="2020-05-26T16:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- dockerValidationWINMC.chromeTest2 -->
+      <class name="dockerValidationWINMC.chromeTest3">
+        <test-method status="PASS" signature="Test3()[pri:0, instance:dockerValidationWINMC.chromeTest3@668bc3d5]" name="Test3" duration-ms="10239" started-at="2020-05-26T16:08:33Z" finished-at="2020-05-26T16:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+      </class> <!-- dockerValidationWINMC.chromeTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
